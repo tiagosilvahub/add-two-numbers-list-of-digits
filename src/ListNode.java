@@ -1,7 +1,9 @@
+package src;
+
 public class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
+    public int val;
+    public ListNode next;
+    public ListNode(int x) { val = x; }
 
     boolean equals(ListNode l1) {
         if(next == null && l1.next != null ||

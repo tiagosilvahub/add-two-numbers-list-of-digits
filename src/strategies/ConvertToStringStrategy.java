@@ -1,3 +1,7 @@
+package src.strategies;
+
+import src.ListNode;
+
 import java.math.BigInteger;
 
 public class ConvertToStringStrategy implements SolutionStrategy {

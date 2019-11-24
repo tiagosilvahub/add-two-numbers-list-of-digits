@@ -1,3 +1,7 @@
+package src.strategies;
+
+import src.ListNode;
+
 public class IterateOverListStrategy implements SolutionStrategy {
 
     @Override

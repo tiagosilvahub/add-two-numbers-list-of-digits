@@ -1,3 +1,9 @@
+package src;
+
+import src.strategies.ConvertToStringStrategy;
+import src.strategies.IterateOverListStrategy;
+import src.strategies.SolutionStrategy;
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
