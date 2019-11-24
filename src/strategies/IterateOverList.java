@@ -2,7 +2,7 @@ package src.strategies;
 
 import src.ListNode;
 
-public class IterateOverListStrategy implements SolutionStrategy {
+public class IterateOverList implements Solution {
 
     @Override
     public ListNode solve(ListNode l1, ListNode l2) {

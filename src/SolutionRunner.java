@@ -1,19 +1,19 @@
 package src;
 
-import src.strategies.ConvertToStringStrategy;
-import src.strategies.IterateOverListStrategy;
-import src.strategies.SolutionStrategy;
+import src.strategies.ConvertToString;
+import src.strategies.IterateOverList;
+import src.strategies.Solution;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class SolutionsRunner {
+public class SolutionRunner {
     public static void main(String[] args) {
-        SolutionStrategy[] strategies =
-                new SolutionStrategy[]{
-                        new ConvertToStringStrategy(),
-                        new IterateOverListStrategy(),
+        Solution[] strategies =
+                new Solution[]{
+                        new ConvertToString(),
+                        new IterateOverList(),
                 };
         var input = new ListNode[][]{
                 // test cases
@@ -48,7 +48,7 @@ public class SolutionsRunner {
         ListNode result;
         int errors = 0;
         int nTestCases = input.length;
-        for (SolutionStrategy s : strategies) {
+        for (Solution s : strategies) {
             for (int i = 0; i < nTestCases; i++) {
                 result = s.solve(input[i][0], input[i][1]);
                 if(!output[i].equals(result)) {

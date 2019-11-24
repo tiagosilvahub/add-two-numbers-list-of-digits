@@ -4,7 +4,7 @@ import src.ListNode;
 
 import java.math.BigInteger;
 
-public class ConvertToStringStrategy implements SolutionStrategy {
+public class ConvertToString implements Solution {
     @Override
     public ListNode solve(ListNode l1, ListNode l2) {
         StringBuilder s1 = new StringBuilder();
