@@ -1,8 +1,8 @@
 package src;
 
-import src.strategies.ConvertToString;
-import src.strategies.IterateOverList;
-import src.strategies.Solution;
+import src.solutions.ConvertToString;
+import src.solutions.IterateOverList;
+import src.solutions.Solution;
 
 import java.util.Arrays;
 import java.util.Collections;

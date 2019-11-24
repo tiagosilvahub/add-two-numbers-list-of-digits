@@ -1,4 +1,4 @@
-package src.strategies;
+package src.solutions;
 
 import src.ListNode;
 
